@@ -3,3 +3,13 @@
 ################################################################################
 
 /.vs
+/BMS.Application/bin/Debug/net6.0
+/BMS.Application/obj
+/BMS.Core/bin/Debug/net6.0
+/BMS.Core/obj
+/BMS.Infra.DAL/bin/Debug/net6.0
+/BMS.Infra.DAL/obj
+/BMS.Test.xUnit/bin/Debug/net6.0
+/BMS.Test.xUnit/obj
+/BMS.UI/bin/Debug/net6.0
+/BMS.UI/obj
