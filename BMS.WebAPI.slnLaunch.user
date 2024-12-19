@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "BMS.WebAPI\\BMS.WebAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BMS.UI\\BMS.UI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

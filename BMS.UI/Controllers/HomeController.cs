@@ -18,7 +18,9 @@ namespace BMS.UI.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+
+        [Route("Add")]
+        public IActionResult Add()
         {
             return View();
         }

@@ -10,7 +10,7 @@
 
         public static void AddApplicationServices(this IServiceCollection services)
         {
-            services.AddSingleton<IBookService, BookService>();
+            services.AddTransient<IBookService, BookService>();
             services.AddInfraServices();
         }
     }

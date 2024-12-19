@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BMS.Infra.DAL.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241219061030_InitialCreate")]
+    [Migration("20241219070839_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,10 +26,6 @@ namespace BMS.Infra.DAL.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Author")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("TEXT");
 

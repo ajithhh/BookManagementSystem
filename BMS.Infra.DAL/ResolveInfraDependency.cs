@@ -8,7 +8,7 @@
     {
         public static void AddInfraServices(this IServiceCollection services)
         {
-            services.AddSingleton<IBookRepository, BookRepository>();
+            services.AddTransient<IBookRepository, BookRepository>();
         }
     }
 }
