@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BMS.Core\BMS.Core.csproj" />
+    <ProjectReference Include="..\BMS.Infra.DAL\BMS.Infra.DAL.csproj" />
   </ItemGroup>
 
 </Project>
